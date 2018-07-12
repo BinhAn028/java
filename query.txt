@@ -1,0 +1,5 @@
+public static void Insert(String id, String name, String birthday, String adress,String sex) {
+		String query="INSERT INTO MSTCUSTOMER (id,name,sex,adress,insertymd) VALUES("+id+","+name+","+sex+","+birthday+","+adress+",getdate())";
+		System.out.println(query);
+		
+	}
